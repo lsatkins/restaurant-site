@@ -1,0 +1,47 @@
+/* cream = #f0ead2;
+lightGreen = #dde5b6ff;
+darkGreen = #adc178ff;
+lightBrown = #a98467ff;
+darkBrown = #6c584cff; */
+
+.bg-cream{
+    background-color: #f0ead2;
+}
+.bg-lightGreen{
+    background-color: #dde5b6;
+}
+.bg-darkGreen{
+    background-color: #adc178;
+}
+.bg-lightBrown{
+    background-color: #a98467;
+}
+.bg-darkBrown{
+    background-color: #6c584c;
+}
+.text-cream{
+    color: #f0ead2;
+}
+.text-lightGreen{
+    color: #dde5b6;
+}
+.text-darkGreen{
+    color: #adc178;
+}
+.text-lightBrown{
+    color: #a98467;
+}
+.text-darkBrown{
+    color: #6c584c;
+}
+.text-white a{
+    color:white;
+}
+.ps-light{
+    background-color: light;
+    width: 100%;
+}
+.ps-dark{
+    background-color: #E5E5E5;
+    width: 100%;
+}
