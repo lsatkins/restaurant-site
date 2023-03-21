@@ -3,7 +3,6 @@ lightGreen = #dde5b6ff;
 darkGreen = #adc178ff;
 lightBrown = #a98467ff;
 darkBrown = #6c584cff; */
-
 .bg-cream{
     background-color: #f0ead2;
 }
@@ -52,7 +51,8 @@ nav{
     margin-right: 30px;
 }
 ul{
-    margin: 20px;
+    padding: 20px;
+    margin: 0px;
 }
 .noBullets{
     list-style-type: none;
@@ -81,4 +81,86 @@ ul{
     height: 550px;
     margin: 0px;
     color: white;
+}
+.under{
+    height: 90px;
+}
+.z10{
+    z-index: 10;
+}
+
+.z15{
+    z-index: 15;
+}
+
+.z20{
+    z-index: 20;
+}
+
+.z25{
+    z-index: 25;
+}
+.category{
+    font-size: 30px;
+    margin: 20px;
+}
+.leftItems{
+    margin: 0 40px 0 40px;
+}
+.rightItems{
+    margin: 0 40px 0 40px;
+}
+.rightItems>.name{
+    padding-left: 0px;
+}
+.top{
+    margin-bottom: 20px;
+}
+.price{
+    color: #dde5b6ff;
+}
+.bottom{
+    margin-bottom: 20px;
+    width: 40vw;
+}
+
+/* ps-brown d-flex flex-column align-items-center */
+
+.ps-brown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* items d-flex */
+
+.items{
+    display: flex;
+}
+
+/* leftItems d-flex flex-column */
+
+.leftItems{
+    display: flex;
+    flex-direction: column;
+}
+
+/* top d-flex justify-content-between */
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.rightItems{
+    display:flex;
+    flex-direction: column;
+}
+
+.name{
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom: 
 }
