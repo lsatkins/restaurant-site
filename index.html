@@ -20,7 +20,7 @@
 
       <!-- start of nav bar -->
 
-      <nav class="navbar navbar-expand-lg bg-darkGreen text-white z-25 position-fixed top-0 w-100">
+      <nav class="navbar navbar-expand-lg bg-dark text-white z25 position-fixed top-0 w-100">
 
         <div class="container-fluid d-flex flex-column position-relative">
 
@@ -74,23 +74,23 @@
 
       <!-- start of video layer -->
 
-      <div id="videoLayer" class="z10 ratio ratio-16x9 d-block">
+      <div id="videoLayer" class="z10 position-absolute top-25 h-100 w-100 ratio ratio-16x9 d-block">
 
-        <iframe width="100%"  height="550px" src="https://www.youtube.com/embed/8H_Vzbs9Bas?autoplay=1&mute=1&start=0&end=30&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8H_Vzbs9Bas?controls=0&autoplay=1&loop=1&mute=1&start=1&end=30&playlist=8H_Vzbs9Bas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
       </div>
 
       <!-- start of opacity layer -->
 
-      <div id="opacity-layer" class="bg-black h-100 w-100 position-absolute top-0 start-0 z15 opacity-50">
+      <div id="opacity-layer" class="bg-black h-100 w-100 position-absolute top-0 start-0  z15 halfOpacity">
 
       </div>  
 
       <!-- start of text layer -->
 
-      <div id="textLayer" class="h-100 w-100 z20 position-absolute d-flex justify-content-center align-items-center">
+      <div id="textLayer" class="h-100 w-100 z20 position-absolute d-flex flex-column justify-content-center align-items-center">
 
-        <div class="display-1 text-white">
+        <div class="display-1 text-white pb-5">
 
           Best Pizza in
 
@@ -100,25 +100,97 @@
 
         </div>
 
+        <div class="h3 text-white d-flex flex-column align-items-center justify-content-center">
+
+          <p>Cuisines:</p>
+
+          <p>Italian, Bar, Pizza, Pub</p>
+
+        </div>
+
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Order Online
+        </button>
+
       </div>
 
     </header>
 
     <div class="main">
       
-      <div class="ps-light"></div>
+      <div class="ps-green row align-items-center">
 
-      <div class="ps-dark"></div>
+        <div class="col-6 d-flex justify-content-center ">
 
-      <div class="ps-light"></div>
+          <img class="pl-5" src="images/logo.jpeg" alt="">
+        </div>
+        
+        <div class="col-6 d-flex flex-column justify-content-center ">
 
-      <div class="ps-dark"></div>
+          <p class="d-flex justify-content-center h2">About</p>
+
+          <p class="pl-5 pr-5 pt-3 description">Authentic NY hand tossed pizza, Detroit style pizza & NY Sicilian style pizza. Caesar Salad’s, Cannolis, Tiramisu, Italian Ricotta Cheesecake, Full Bar</p>
+        
+        </div>
+
+        
+
+      </div>
+
+      <div class="ps-brown text-white row">
+
+        <div class="col-6">
+
+          <p>Features</p>
+
+          <p>Reservations, Outdoor Seating, Highchairs Available, Wheelchair Accessible, Wine and Beer, Free Wifi, Accepts Credit Cards, Non-smoking restaurants</p>
+
+        </div>
+
+        <div class="col-6">
+
+          <img src="images/pepperoni.jpeg" alt="">
+
+        </div>
+
+      </div>
+
+      <div class="ps-green">
+
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quidem aspernatur rem, ullam nihil voluptatem, quibusdam qui sit reprehenderit reiciendis optio aut cum est saepe consectetur minima. Quis, blanditiis nobis?
+      Vero, ab consectetur, iure dolor, nesciunt quod voluptatibus alias voluptatem eos facilis nihil hic et nam maiores excepturi ut error consequatur. Obcaecati tempora ullam saepe amet ab quibusdam cupiditate beatae.
+      Voluptates, veritatis fugit magni, fugiat excepturi ducimus quo numquam aliquam totam illo dolorum placeat voluptatibus neque quidem reiciendis amet qui tenetur eos praesentium. Dolor quibusdam distinctio fugit incidunt ratione minima.
+      A facere, quas dolor ab fuga voluptas nesciunt recusandae, quo, pariatur eum libero omnis. Eaque repudiandae voluptatum perferendis aliquid harum, reiciendis corporis, ullam expedita fuga, odio eum facilis porro maiores.
+      Repudiandae, delectus atque. Dolore saepe corrupti vel molestiae sapiente debitis? Eius ipsam, dolorum eaque numquam delectus illum nisi quaerat repellat voluptatibus obcaecati molestias maiores? Veniam est corporis numquam voluptas debitis.
+      Assumenda laborum laudantium neque maiores, de
+
+      </div>
+
+      <div class="ps-brown text-white"></div>
 
     </div>
 
     <div class="footer"></div>
 
   </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Maybe this is my menu
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Save changes</button>
+        </div>
+    </div>
+    </div>
+</div>
 
 </body>
 </html>

@@ -19,6 +19,9 @@ darkBrown = #6c584cff; */
 .bg-darkBrown{
     background-color: #6c584c;
 }
+.bg-black{
+    background-color: black;
+}
 .text-cream{
     color: #f0ead2;
 }
@@ -37,11 +40,20 @@ darkBrown = #6c584cff; */
 .text-white a{
     color:white;
 }
-.ps-light{
-    background-color: light;
+.ps-green{
+    background-color: #dde5b6;
     width: 100%;
+    height: 550px;
 }
-.ps-dark{
-    background-color: #E5E5E5;
+.ps-brown{
+    background-color: #a98467;
     width: 100%;
+    height: 550px;
+}
+nav{
+    height: 10%;
+}
+.videoLayer{
+    height: 90%;
+    top: 10%;
 }
